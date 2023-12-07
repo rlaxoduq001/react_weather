@@ -1,0 +1,26 @@
+body {
+    background: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box {
+    border: 3px solid white;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.box_container {
+    display: flex;
+    gap: 10px;
+}
